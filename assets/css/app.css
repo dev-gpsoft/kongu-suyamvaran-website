@@ -1,0 +1,43 @@
+/* Resize Background*/
+
+.logo .sm {
+    display: none;
+    height: auto !important;
+    }
+
+    .img-fill .sm {
+        display: none;
+    }
+
+@media only screen and (max-width: 800px) {
+
+    .logo img {
+        display: none;
+        height: auto !important;
+        }
+
+        .logo .sm {
+            display: inline;
+            width: 88%;
+        }
+
+        .img-fill .sm {
+            display: inline;
+        }
+
+        .img-fill img {
+            display: none;
+        }
+ 
+    .header-area {
+        background-color: #f7f7f7;
+        padding: 0px;
+        height: 100px;
+        box-shadow: none;
+        text-align: center;
+    }
+
+    .header-area .logo {
+       margin-left: 0px;
+    }
+}
